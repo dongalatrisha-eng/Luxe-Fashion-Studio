@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUXE FASHION STUDIO | Collections</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="collection-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="collection.html" class="nav-link active">Collections</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-collection">
+      <div class="container hero-content">
+        <p class="eyebrow">Collection</p>
+        <h1>Discover the Luxe Fashion Edit</h1>
+        <p>Shop premium ready-to-wear pieces created for bold, sophisticated style statements.</p>
+      </div>
+    </section>
+
+    <section class="section section-cards">
+      <div class="container section-header">
+        <span class="eyebrow">Our Series</span>
+        <h2>Luxury Collections</h2>
+      </div>
+      <div class="container collection-grid">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80" alt="Monochrome suiting">
+          <div class="product-copy">
+            <h3>Midnight Tailoring</h3>
+            <p>Structured suits and fluid layers ideal for powerful evening silhouettes.</p>
+            <a href="contact.html" class="btn btn-secondary">Reserve a Look</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Elegant eveningwear">
+          <div class="product-copy">
+            <h3>Gold Signature</h3>
+            <p>Statement pieces accented with metallic details for modern glamour.</p>
+            <a href="contact.html" class="btn btn-secondary">Schedule Styling</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80" alt="Luxury fashion coat">
+          <div class="product-copy">
+            <h3>Essence of Noir</h3>
+            <p>Minimalist luxury essentials with superior drape and tactile elegance.</p>
+            <a href="contact.html" class="btn btn-secondary">Request Preview</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section featured-lines">
+      <div class="container featured-grid">
+        <div class="featured-text">
+          <span class="eyebrow">Featured</span>
+          <h2>Limited seasonal releases for the refined wardrobe</h2>
+          <p>From bespoke tailoring to evening essentials, each piece is crafted with intention and a sense of permanence.</p>
+        </div>
+        <div class="featured-cta">
+          <a href="portfolio.html" class="btn btn-primary">View Styling Gallery</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+        <p>Premier luxury fashion for discerning aesthetes.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="collection.html">Collections</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p>Follow us</p>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 LUXE FASHION STUDIO. Crafted for luxury moments.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

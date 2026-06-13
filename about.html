@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUXE FASHION STUDIO | About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="about-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="collection.html" class="nav-link">Collections</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-about">
+      <div class="container hero-content hero-about-content">
+        <p class="eyebrow">The House of Luxe</p>
+        <h1>Born from Artistry, Defined by Elegance</h1>
+        <p>LUXE FASHION STUDIO merges couture craftsmanship with modern minimalism to create garments that feel iconic.</p>
+      </div>
+    </section>
+
+    <section class="section about-story">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <span class="eyebrow">Our Legacy</span>
+          <h2>Designing timeless silhouettes since 2026</h2>
+          <p>Each collection is rooted in refined tailoring, premium textiles, and a confident aesthetic that resonates across seasons. We celebrate bold details and effortless luxury.</p>
+          <ul>
+            <li>Hand-finished construction</li>
+            <li>Exclusive limited-release drops</li>
+            <li>Minimalist palettes with dramatic accents</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b" alt="Luxury fashion atelier">
+      </div>
+    </section>
+
+    <section class="section values">
+      <div class="container section-header">
+        <span class="eyebrow">The Vision</span>
+        <h2>Luxury that feels contemporary and refined</h2>
+      </div>
+      <div class="container grid-3">
+        <article class="value-card">
+          <h3>Craft</h3>
+          <p>Every piece is designed with precision, from structured tailoring to fluid drape.</p>
+        </article>
+        <article class="value-card">
+          <h3>Experience</h3>
+          <p>We create immersive fashion journeys through imagery, styling, and curated collections.</p>
+        </article>
+        <article class="value-card">
+          <h3>Elegance</h3>
+          <p>Minimalism meets statement-making details in every garment and campaign.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+        <p>Premier luxury fashion for discerning aesthetes.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="collection.html">Collections</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p>Follow us</p>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 LUXE FASHION STUDIO. Crafted for luxury moments.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

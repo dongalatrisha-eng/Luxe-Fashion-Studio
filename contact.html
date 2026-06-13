@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUXE FASHION STUDIO | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="collection.html" class="nav-link">Collections</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-contact">
+      <div class="container hero-content">
+        <p class="eyebrow">Connect</p>
+        <h1>Begin Your Fashion Journey</h1>
+        <p>Reach out for bespoke styling, custom orders, or luxury collection inquiries.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="eyebrow">Get in Touch</span>
+          <h2>Personal styling and client services</h2>
+          <p>Our team is available for appointments, private previews, and editorial collaborations.</p>
+          <div class="contact-info">
+            <div>
+              <h3>Studio</h3>
+              <p>78 Avenue Montaigne, Paris</p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>hello@luxefashionstudio.com</p>
+            </div>
+            <div>
+              <h3>Phone</h3>
+              <p>+33 1 23 45 67 89</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+          <label for="service">Service Type</label>
+          <select id="service" name="service">
+            <option>Personal Styling</option>
+            <option>Custom Order</option>
+            <option>Private Consultation</option>
+            <option>Editorial Project</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Share your vision or request"></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+        <p>Premier luxury fashion for discerning aesthetes.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="collection.html">Collections</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p>Follow us</p>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 LUXE FASHION STUDIO. Crafted for luxury moments.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

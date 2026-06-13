@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUXE FASHION STUDIO | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="portfolio-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="collection.html" class="nav-link">Collections</a>
+        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-portfolio">
+      <div class="container hero-content">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Editorial Imagery & Luxury Looks</h1>
+        <p>Explore iconic fashion moments created for runway, campaigns, and bold personal style.</p>
+      </div>
+    </section>
+
+    <section class="section section-header">
+      <div class="container">
+        <span class="eyebrow">Gallery</span>
+        <h2>Luxury Fashion Visuals</h2>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="container">
+        <div class="gallery">
+          <div class="gallery-item large">
+            <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1600&q=80" alt="High fashion runway look">
+          </div>
+          <div class="gallery-item tall">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80" alt="Luxury portrait fashion look">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=80" alt="Fashion editorial portrait">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Fashion model in chic outfit">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8" alt="Elegant luxury accessory look">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=900&q=80" alt="Fashion lifestyle closeup">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio-highlights">
+      <div class="container highlight-grid">
+        <article class="highlight-card">
+          <h3>Editorial Styling</h3>
+          <p>Sharp contrasts, luxurious textures, and imagery that speaks to premium style.</p>
+        </article>
+        <article class="highlight-card">
+          <h3>Runway Looks</h3>
+          <p>Signature silhouettes designed for confident presence and evening glamour.</p>
+        </article>
+        <article class="highlight-card">
+          <h3>Signature Accessories</h3>
+          <p>Fine detailing, metallic accents, and cohesive finishing touches.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+        <p>Premier luxury fashion for discerning aesthetes.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="collection.html">Collections</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p>Follow us</p>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 LUXE FASHION STUDIO. Crafted for luxury moments.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

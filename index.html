@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUXE FASHION STUDIO | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="collection.html" class="nav-link">Collections</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <div class="container hero-content">
+        <p class="eyebrow">Luxury Capsule Collection</p>
+        <h1>Elevate Your Signature Style</h1>
+        <p>Discover elegant designs, refined silhouettes, and premium wear crafted for modern icons.</p>
+        <div class="hero-actions">
+          <a href="collection.html" class="btn btn-primary">Explore Collections</a>
+          <a href="contact.html" class="btn btn-secondary">Book a Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-grid">
+      <div class="container grid-3">
+        <article class="feature-card">
+          <span class="feature-tag">Exclusive</span>
+          <h2>Tailored Luxury</h2>
+          <p>Precision-cut pieces designed to accentuate grace, power, and timeless sophistication.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-tag">Craftsmanship</span>
+          <h2>Material Mastery</h2>
+          <p>Silk, leather, and metallic accents blended into modern wardrobe essentials.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-tag">Signature</span>
+          <h2>Limited Editions</h2>
+          <p>Curated capsule releases that celebrate couture details and premium statement pieces.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section spotlight">
+      <div class="container spotlight-grid">
+        <div class="spotlight-image">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80" alt="Luxury fashion portrait">
+        </div>
+        <div class="spotlight-copy">
+          <span class="eyebrow">New Arrival</span>
+          <h2>Bold silhouettes for the modern wardrobe</h2>
+          <p>Introducing the new edit of sculptural coats, exquisite tailoring, and refined eveningwear in black, white, and gold.</p>
+          <a href="collection.html" class="btn btn-primary">View the Edit</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-preview">
+      <div class="container section-header">
+        <span class="eyebrow">Visual Story</span>
+        <h2>Curated Fashion Moments</h2>
+      </div>
+      <div class="gallery-grid home-gallery-grid">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80" alt="Fashion editorial look">
+        <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=1200&q=80" alt="Luxury fashion runway">
+        <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1200&q=80" alt="High fashion portrait">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80" alt="Luxury fashion portrait">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b" alt="Fashion detail styling">
+        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050" alt="Elegant accessory fashion scene">
+        <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3">
+        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80" alt="Model in luxury eveningwear">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">LUXE FASHION STUDIO</a>
+        <p>Premier luxury fashion for discerning aesthetes.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="collection.html">Collections</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p>Follow us</p>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 LUXE FASHION STUDIO. Crafted for luxury moments.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>
